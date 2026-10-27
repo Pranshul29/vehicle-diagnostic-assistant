@@ -7,7 +7,6 @@ void brakeDiagnosis(void);
 void fuelEfficiencyDiagnosis(void);
 void tyreDiagnosis(void);
 
-/* Ask the engine-starting questions and suggest possible causes. */
 void engineDiagnosis(void)
 {
     int dashboardLights;
@@ -62,7 +61,6 @@ void engineDiagnosis(void)
     }
 }
 
-/* Ask about overheating symptoms and give basic safety advice. */
 void overheatingDiagnosis(void)
 {
     int warningLight;
@@ -118,7 +116,6 @@ void overheatingDiagnosis(void)
     printf("Safety warning: Never open the radiator cap while the engine is hot.\n");
 }
 
-/* Ask about starting and lighting symptoms that may involve the battery. */
 void batteryDiagnosis(void)
 {
     int startsSlowly;
@@ -167,7 +164,6 @@ void batteryDiagnosis(void)
     }
 }
 
-/* Ask about brake symptoms and give safety-focused suggestions. */
 void brakeDiagnosis(void)
 {
     int softPedal;
@@ -218,7 +214,6 @@ void brakeDiagnosis(void)
     }
 }
 
-/* Ask about fuel use and simple factors that can reduce efficiency. */
 void fuelEfficiencyDiagnosis(void)
 {
     int mileageDecreased;
@@ -273,7 +268,6 @@ void fuelEfficiencyDiagnosis(void)
     }
 }
 
-/* Ask about tyre condition and pressure-warning symptoms. */
 void tyreDiagnosis(void)
 {
     int visibleDamage;
